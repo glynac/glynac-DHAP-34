@@ -1,0 +1,16 @@
+table: public.chatbot_conversations
+
+primary_key: [id]
+
+columns:
+  - name: id
+    type: integer
+    nullable: false
+
+  - name: question
+    type: text
+    nullable: false
+
+  - name: answer
+    type: text
+    nullable: false
